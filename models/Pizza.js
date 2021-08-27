@@ -1,7 +1,7 @@
 const { Pizza } = require('../database/models');
 
-const pizzas = require("../database/pizzas.json");
-const fs = require("fs");
+// const pizzas = require("../database/pizzas.json");
+// const fs = require("fs");
 
 const PizzaModel = {
   findById: (id) => Pizza.findByPk(id),
